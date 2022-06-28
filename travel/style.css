@@ -1,0 +1,265 @@
+html {
+    box-sizing: border-box;
+    width: 1440;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("./img/top-background.jpg"), url("./img/bottom-background.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Aleo;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    color: #F2785C;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Aleo;
+    color: #0D606F;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: #0D606F;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 0px #0D606F29, 0px 2px 3px 0px #00000040;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list > li {
+    padding-right: 42px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Red Hat Text;
+    color: #FFFFFF;
+
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 120px 25px 120px;
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px 0px #0D606F80;
+}
+
+#button-login {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    color: #FFFFFF;
+}
+
+#button-submit {
+    padding: 13.5px 32.5px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    color: #FFFFFF;
+    margin-right: 18px;
+}
+
+.buttons-with-arrow {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    width: 228px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.small-text {
+    font-family: Aleo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0D606F;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    width: 216px;
+    height: 31px;
+}
+
+
+#login-button {
+    justify-content: flex-end;
+}
+
+#preview {
+    height: 665px;
+}
+
+#preview-content {
+    width: 892px;
+    padding-top: 40px;
+    padding-left: 120px;
+}
+
+#preview-subheader {
+    margin-bottom: 46px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Aleo;
+    color: #FFFFFF;
+}
+
+#form-question {
+    display: flex;
+    width: 892px;
+    height: 95px;
+    background-color: #FFFFFFB2;
+    border-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#preview-search-input {
+    font-family: Aleo;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    background-color: transparent;
+    margin: 0 45px 0 40px;
+}
+
+#preview-search-input::placeholder {
+    color: #F2785C;
+}
+
+#steps {
+    width: 1177px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#step-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-img {
+    width: 100px;
+    height: 100px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+}
+
+#destinations {
+    margin-top: 100px;
+}
+
+#destination-items {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.destination-item {
+    margin: 0 25px;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.country-name {
+    font-family: "Red Hat Text";
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0px 0px 40px 15px;
+}
+
+#story-items {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.story-item {
+    display: flex;
+    margin: 15px 120px;
+}
+
+.story-image {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+
+#footer-block {
+    margin-left: 608px;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.more {
+    font-family: Aleo;
+    font-weight: 400px;
+    font-size: 20px;
+   
+    color: #0D606F;
+}
