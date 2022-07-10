@@ -1,0 +1,378 @@
+html {
+    box-sizing: border-box;
+    width: 1440;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #0D606F;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    font-family: Aleo;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/top-background.jpg"),
+                      url("./img/bottom-background.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+}
+
+header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    color: #F2785C;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #0D606F;
+    margin-top: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: #0D606F;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 0px #0D606F29, 0px 2px 3px 0px #00000040;
+}
+
+#nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0px 120px;
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px 0px #0D606F80;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list > li {
+    padding-right: 42px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    color: #FFFFFF;
+
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+#button-login {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    color: #FFFFFF;
+}
+
+#login-button {
+    justify-content: flex-end;
+}
+
+button:hover {
+    background: rgba(58, 121, 153, 0.9);
+    color: #0D606F;
+   }
+
+.buttons-with-arrow:hover {
+    color: #FFFFFF;
+}
+
+#button-submit {
+    padding: 13.5px 32.5px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    color: #FFFFFF;
+    margin-right: 18px;
+   }
+
+.buttons-with-arrow {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Red Hat Text";
+    width: 230px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#button-see-more {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #0D606F;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.logo-img {
+    width: 216px;
+    height: 31px;
+}
+
+
+#preview {
+    height: 675px;
+}
+
+#preview-content {
+    width: 890px;
+    padding: 40px 0 0 120px;
+}
+
+#preview-subheader {
+    margin-bottom: 46px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+#form-question {
+    display: flex;
+    width: 100%;
+    height: 95px;
+    background-color: #FFFFFFB2;
+    border-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#preview-search-input {
+    font-family: Aleo;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    border: 0px;
+    background-color: transparent;
+    margin-left: 40px;
+    width: 600px;
+}
+
+#preview-search-input:focus {
+    outline: none;
+}
+
+#preview-search-input::placeholder {
+    color: #F2785C;
+}
+
+#steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#step-items {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 155px;
+    margin: auto;
+}
+
+.step-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step-img {
+    width: 100px;
+    height: 100px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 40px 0;
+}
+
+#destination-items {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.destination-item {
+    margin: 0 25px;
+}
+
+#carousel-controls {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 40px 0;
+}
+
+#destinations-button {
+    display: flex;
+    justify-content: center;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.country-name {
+    font-family: "Red Hat Text";
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0px 0px 40px 15px;
+}
+
+#stories {
+    margin-bottom: 0;
+}
+
+#stories-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1270px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#story-items {
+    width: 1200px;
+}
+
+.story-item {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.story-image {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 40px;
+    box-shadow: 0px 4px 4px 0px #0D606F;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.more {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0D606F;
+    text-decoration: underline;
+}
+
+.more:visited {
+    color: #0D606F;
+}
+
+.more:hover {
+    color: #F2785C;
+}
+
+li, button {
+    cursor: pointer;
+}
+
+#copy {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF; 
+}
+
+#footer-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 450px;
+}
+
